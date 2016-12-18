@@ -5,7 +5,13 @@ html {
     margin: auto;
     border: 3px solid #000000;
 }
-
+div.button {
+  border: 10px solid #000000;
+  margin: auto;
+  padding: 10px 10px 10px 10px;
+  background-color: #FF0000;
+  width: 800px;
+}
 Body {
     font-family: "Comic Sans MS";
 }
@@ -26,4 +32,9 @@ img {
     padding:10px;
     border-radius: 10%;
     box-shadow: 3px 4px 4px #000;
+    postion: absolute;
+}
+h2.experience {
+  border: 5px soldi #000000;
+  margin: 10px 10px 10px 10px;
 }
