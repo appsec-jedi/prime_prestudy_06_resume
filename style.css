@@ -1,9 +1,8 @@
 html {
-    background-color: #0048ff;
-    background-image: url("https://www.transparenttextures.com/patterns/knitted-sweater.png");
-    width: 1300px;
-    margin: auto;
-    border: 3px solid #000000;
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
+  margin: auto;
+  border: 3px solid #000000;
 }
 div.button {
   border: 10px solid #000000;
@@ -11,31 +10,48 @@ div.button {
   padding: 10px 10px 10px 10px;
   background-color: #FF0000;
   width: 800px;
+  text-align: center;
+}
+
+section {
+  text-align: center;
 }
 
 Body {
     font-family: "Comic Sans MS";
 }
 
-h1 {
+header {
     text-align:center;
     text-shadow: 1px 2px 2px #CCC;
 }
 
-h3 {
-    font-style:italic;
-}
-
-img {
-    float:right;
-    width:300px;
+img.pic {
+    position: absolute;;
+    right: 20px;
+    top: 150px;
+    width:250px;
     border:3px solid #000000;
     padding:10px;
     border-radius: 10%;
     box-shadow: 3px 4px 4px #000;
-    postion: absolute;
+    display: inline-block;
 }
-h2.experience {
-  border: 5px soldi #000000;
-  margin: 10px 10px 10px 10px;
+h2 {
+  border: 5px solid #000000;
+  margin: auto;
+  text-align: center;
+  width: 300px;
+  border-radius: 45%
+}
+img.doge {
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+  width: 130px;
+  border:1px solid #000000;
+  padding:10px;
+  border-radius: 10%;
+  box-shadow: 3px 4px 4px #000;
+  display: inline-block;
 }
