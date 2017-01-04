@@ -3,6 +3,7 @@ html {
   background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
   margin: auto;
   border: 3px solid #000000;
+  width: 1200px;
 }
 div.button {
   border: 10px solid #000000;
@@ -28,7 +29,7 @@ header {
 
 img.pic {
     position: absolute;;
-    right: 20px;
+    right: 150px;
     top: 150px;
     width:250px;
     border:3px solid #000000;
@@ -63,7 +64,10 @@ ul.tab {
 }
 
 /* Float the list items side by side */
-ul.tab li {float:left;}
+ul.tab li {
+    float:left;
+    text-align: center;
+}
 
 /* Style the links inside the list items */
 ul.tab li a {
