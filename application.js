@@ -6,11 +6,26 @@ $(document).ready(function(){
 });
 
 
-var user = prompt("Hey, friend! Welcome to my page! What can I call you?");
-alert("Thanks for stopping by, " + user + "! Click on the button on the next page to learn more about me");
+var gotName = false;
+while (gotName == false) {
+  var userName = prompt("Hey, friend! Welcome to my page! What can I call you?");
+  if (userName == null) {
+    alert("Sorry, I didn't get that");
+  }
+  else if (userName.length <= 1) {
+    alert("Sorry, I didn't get that");
+  }
+  else {
+    alert("Thanks for stopping by, " + userName + "! Click on the button on the next page to learn more about me");
+    gotName = true;
+  }}
+
+console.log(userName);
+console.log(typeof(userName));
+
 
 setTimeout(function()
-  { alert("You've been here a while, " + user + ". feel free to connect with me on LinkedIn and start a conversation"); }, 60000);
+  { alert("You've been here a while, " + userName + ". feel free to connect with me on LinkedIn and start a conversation"); }, 60000);
 
 function openTab(evt, tabName) {
 
